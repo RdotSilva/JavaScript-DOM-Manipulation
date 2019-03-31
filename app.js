@@ -33,3 +33,12 @@ addForm.addEventListener('submit', function(e){
   li.appendChild(deleteBtn);
   list.appendChild(li);
 });
+
+var book = document.querySelector('li:first-child .name')
+
+book.getAttribute('class') //returns name
+book.setAttribute('class', ' name-2') //changes class to name-2
+book.hasAttribute('class') //returns true
+book.hasAttribute('href') //returns false
+book.removeAttribute('class') //removes class attribute
+book.setAttribute('class', 'name') //sets class attribute to 'name'
