@@ -1,2 +1,2 @@
-# JavaScript-DOM-Tutorial
-Net Ninja JavaScript DOM Tutorial
+# JavaScript-DOM-Manipulation
+Manipulating the DOM with JavaScript
